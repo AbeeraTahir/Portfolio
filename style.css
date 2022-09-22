@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.white {
+  color: #fff;
+}
+
+header {
+  width: 375px;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+  background: #3c3a39;
+  display: flex;
+}
+
+.logo_placeholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 101px;
+  height: 44px;
+  left: 12px;
+  top: 2px;
+}
+
+.logo {
+  width: 85px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 550;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: 8px;
+}
+
+.bars {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.bars:hover {
+  cursor: pointer;
+}
+
+.headline_section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0;
+  top: 92px;
+  background: #1c1a19;
+}
+
+.primary_text {
+  width: 327px;
+  height: 124px;
+  top: 120px;
+  left: 24px;
+  font-family: 'Crete Round', serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.supporting_text {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.description {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.social_media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.vector {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.vector:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.headline_bg_img {
+  background-image: url(images/headline_bg_img.png);
+  position: absolute;
+  left: 250px;
+  top: 320px;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
