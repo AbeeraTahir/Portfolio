@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .white {
@@ -14,7 +16,7 @@ header {
   position: absolute;
   left: 0;
   right: 0;
-  top: 44px;
+  top: 0;
   bottom: 0;
   background: #3c3a39;
   display: flex;
@@ -30,6 +32,10 @@ header {
   height: 44px;
   left: 12px;
   top: 2px;
+}
+
+.logo_placeholder a {
+  text-decoration: none;
 }
 
 .logo {
@@ -76,22 +82,20 @@ nav {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
-  position: absolute;
   width: 375px;
   height: 590px;
-  left: 0;
-  top: 92px;
   background: #1c1a19;
+  position: absolute;
+  left: 0;
+  top: 48px;
 }
 
 .primary_text {
-  width: 327px;
-  height: 124px;
-  top: 120px;
-  left: 24px;
+  display: block;
   font-family: 'Crete Round', serif;
-  font-size: 56px;
+  font-style: normal;
   font-weight: 400;
+  font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -116,22 +120,23 @@ nav {
 }
 
 .description {
+  border: 1px solid #1c1a19;
   width: 327px;
   height: 123px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
   flex: none;
   order: 2;
   flex-grow: 0;
 }
 
+.description p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 .social_media {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 0;
   width: 200px;
   height: 40px;
@@ -140,15 +145,18 @@ nav {
   flex-grow: 0;
 }
 
-.vector {
-  width: 40px;
-  height: 40px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+.social_media ul {
+  display: flex;
+  padding: 10px;
 }
 
-.vector:hover {
+.social_media ul li {
+  list-style: none;
+  width: 45px;
+  height: 45px;
+}
+
+.social_media ul li:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -156,8 +164,8 @@ nav {
 .headline_bg_img {
   background-image: url(images/headline_bg_img.png);
   position: absolute;
-  left: 250px;
-  top: 320px;
+  left: 242.5px;
+  top: 315px;
   right: 0;
   bottom: 0;
   background-repeat: no-repeat;
