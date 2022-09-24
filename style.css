@@ -162,13 +162,17 @@ nav {
 }
 
 .headline_bg_img {
+  width: 96px;
+  height: 235px;
   background-image: url(images/headline_bg_img.png);
-  position: absolute;
-  left: 242.5px;
-  top: 315px;
-  right: 0;
-  bottom: 0;
   background-repeat: no-repeat;
+  object-fit: fill;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  right: 0;
+  left: 254.5px;
+  top: -151px;
 }
 
 .works {
@@ -462,6 +466,7 @@ nav {
   right: 0;
   bottom: 0;
   height: 270px;
+  width: 160px;
 }
 
 .divider {
