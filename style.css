@@ -458,9 +458,10 @@ nav {
   background-repeat: no-repeat;
   position: absolute;
   left: 214.5px;
-  right: -99.81%;
   top: 385px;
-  bottom: 0.07%;
+  right: 0;
+  bottom: 0;
+  height: 270px;
 }
 
 .divider {
@@ -678,20 +679,42 @@ hr {
   transform: scale(1.1);
 }
 
-input[type="submit"]:hover {
-  cursor: pointer;
-  background-color: chocolate;
-}
-
-input[type="submit"]:active {
-  background-color: darkorange;
-}
-
 button:hover {
   cursor: pointer;
-  background-color: chocolate;
+  color: chocolate;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  color: chocolate;
 }
 
 button:active {
-  background-color: darkorange;
+  background-color: chocolate;
+  border: 2px solid chocolate;
+  color: white;
+}
+
+input[type="submit"]:active {
+  background-color: chocolate;
+  border: 2px solid chocolate;
+  color: white;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: gray;
+}
+
+input[type="submit"]:disabled {
+  background-color: #ccc;
+  color: gray;
+}
+
+button:enabled {
+  background-color: #ff6b00;
+}
+
+input[type="submit"]:enabled {
+  background-color: #ff6b00;
 }
