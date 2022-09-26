@@ -281,13 +281,12 @@ nav {
 }
 
 .tags ul {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  list-style: none;
 }
 
 .tags ul li {
-  list-style: none;
+  float: left;
+  margin-right: 8px;
   border: 1px solid #8993a4;
   padding: 10px 12px;
   font-family: 'Inter', sans-serif;
