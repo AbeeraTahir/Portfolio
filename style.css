@@ -652,21 +652,27 @@ textarea::placeholder {
 
 button:hover {
   cursor: pointer;
-  color: brown;
+  color: #f55800;
+  border: 1px solid #f55800;
+  background-color: #FFF5E1;
 }
 
 button:active {
-  border: 2px solid brown;
-  color: white;
+  color: #fff;
+  border: 1px solid#e05304;;
+  background-color: #e05304;
 }
 
 button:disabled {
-  background-color: #ccc;
-  color: gray;
+  color: #5b5957;
+  background-color: #f4f1f0;
+  border: 1px solid #f4f1f0;
 }
 
 button:enabled {
-  background-color: #ff6b00;
+  color: #fff;
+  background-color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .social ul {
