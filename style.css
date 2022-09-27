@@ -666,6 +666,30 @@ button:enabled {
   background-color: #ff6b00;
 }
 
-input[type="submit"]:enabled {
-  background-color: #ff6b00;
+.social ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  gap: 20px;
+  list-style: none;
 }
+
+hr {
+  position: absolute;
+  top: 70px;
+  width: 135px;
+  height: 6px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.social ul li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+} 
+
