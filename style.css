@@ -592,7 +592,7 @@ form {
   height: 330px;
 }
 
-input{
+input {
   width: 327px;
   height: 48px;
   font-family: 'Inter', sans-serif;
@@ -627,10 +627,10 @@ textarea::placeholder {
   color: #3c3a39;
 }
 
-form button {
+.btn-form {
   padding: 12px;
   gap: 10px;
-  width: 131px;
+  width: 132px;
   height: 48px;
   border: none;
   font-family: 'Inter', sans-serif;
@@ -694,5 +694,4 @@ hr {
 .social ul li:hover {
   cursor: pointer;
   transform: scale(1.1);
-} 
-
+}
