@@ -654,12 +654,12 @@ button:hover {
   cursor: pointer;
   color: #f55800;
   border: 1px solid #f55800;
-  background-color: #FFF5E1;
+  background-color: #fff5e1;
 }
 
 button:active {
   color: #fff;
-  border: 1px solid#e05304;;
+  border: 1px solid#e05304;
   background-color: #e05304;
 }
 
