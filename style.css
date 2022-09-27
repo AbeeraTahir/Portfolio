@@ -507,7 +507,7 @@ nav {
   align-items: center;
   padding: 8px 12px;
   gap: 12px;
-  margin-left: -35px;
+  margin-left: -27px;
 }
 
 .skill_title h1 {
@@ -542,17 +542,24 @@ nav {
   transform: scale(1.1);
 }
 
+footer {
+  position: absolute;
+  top: 5990px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 950px;
+}
+
 .form-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
   gap: 58px;
-  position: absolute;
   width: 375px;
   height: 844px;
-  left: 0px;
-  top: 1900px;
 }
 
 .form-text-container {
@@ -634,12 +641,9 @@ form button {
   letter-spacing: 0.03em;
 }
 
-footer {
-  position: absolute;
+.bottom_navigation {
   width: 375px;
-  height: 72px;
-  left: 0px;
-  top: 6830px;
+  height: 82px;
   border-top: 1px solid #dfe1e6;
   display: flex;
   align-items: center;
@@ -648,12 +652,11 @@ footer {
 
 button:hover {
   cursor: pointer;
-  color: chocolate;
+  color: brown;
 }
 
 button:active {
-  background-color: chocolate;
-  border: 2px solid chocolate;
+  border: 2px solid brown;
   color: white;
 }
 
@@ -678,7 +681,7 @@ button:enabled {
 
 hr {
   position: absolute;
-  top: 70px;
+  top: 930px;
   width: 135px;
   height: 6px;
   bottom: 8px;
