@@ -542,12 +542,111 @@ nav {
   transform: scale(1.1);
 }
 
-button:hover {
-  cursor: pointer;
-  color: chocolate;
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 58px;
+  position: absolute;
+  width: 375px;
+  height: 844px;
+  left: 0px;
+  top: 1900px;
 }
 
-input[type="submit"]:hover {
+.form-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  gap: 24px;
+  width: 327px;
+  height: 216px;
+}
+
+.form-text-container h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 1200;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+}
+
+input{
+  width: 327px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 10px;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  background-color: #fbf8f7;
+  border: none;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+textarea::placeholder {
+  color: #3c3a39;
+}
+
+form button {
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  position: absolute;
+  width: 375px;
+  height: 72px;
+  left: 0px;
+  top: 6830px;
+  border-top: 1px solid #dfe1e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
   cursor: pointer;
   color: chocolate;
 }
@@ -558,18 +657,7 @@ button:active {
   color: white;
 }
 
-input[type="submit"]:active {
-  background-color: chocolate;
-  border: 2px solid chocolate;
-  color: white;
-}
-
 button:disabled {
-  background-color: #ccc;
-  color: gray;
-}
-
-input[type="submit"]:disabled {
   background-color: #ccc;
   color: gray;
 }
