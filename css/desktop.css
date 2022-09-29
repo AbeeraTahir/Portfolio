@@ -5,9 +5,10 @@
 }
 
 header {
-    height: 72px;
-    display: flex;
-    align-items: center;
+  width: 1440px;
+  height: 72px;
+  display: flex;
+  align-items: center;
 }
 
 nav {
@@ -39,10 +40,10 @@ nav {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.nav-items ul li a{
+.nav-items ul li a {
   color: #fff;
 }
 
@@ -75,7 +76,7 @@ a {
 
 .headline_section {
   padding-top: 0;
-  width: 100%;
+  width: 1440px;
   height: 798px;
 }
 
@@ -83,7 +84,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 192px 0px;
+  padding: 192px 0;
   gap: 24px;
   position: absolute;
   width: 566px;
@@ -125,10 +126,10 @@ a {
   background-image: url(../images/headline_desktop_image.png);
   background-repeat: no-repeat;
   object-fit: cover;
-  width: 615.53px;
-  height: 633.35px;
+  width: 41%;
+  height: 733.35px;
   position: absolute;
-  top: 7%;
+  top: 0%;
   bottom: 0%;
   right: 0%;
 }
@@ -149,11 +150,10 @@ a {
   position: absolute;
   top: 845px;
   height: 1835px;
-  border: 1px solid green;
+  width: 1440px;
 }
 
 .works_container {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,13 +168,13 @@ a {
   flex-direction: row;
   align-items: center;
   gap: 24px;
-  width: 1133px;
+  width: 1145px;
   height: 52px;
   margin-bottom: 100px;
 }
 
 .works_line {
-  width: 792px;
+  width: 794px;
   height: 1.5px;
 }
 
@@ -186,7 +186,6 @@ a {
   width: 1156px;
   height: 448px;
   margin-top: 0;
-  border: 1px solid green;
 }
 
 .multi_post_img {
@@ -234,15 +233,16 @@ a {
 
 .works_card_container {
   display: grid;
-  grid-template-columns: repeat(3, 389px);
+  grid-template-columns: repeat(3, 370px);
   justify-content: center;
   align-items: center;
   place-items: center;
-  row-gap: 5px;
-  width: 1155px;
+  width: 1156px;
   height: 2000px;
   margin: 0;
   padding: 0;
+  row-gap: 5px;
+  column-gap: 15px;
 }
 
 .card {
@@ -252,15 +252,33 @@ a {
 }
 
 .mask_group {
-  background-image: url(../images/mask_group.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 370px;
   height: 377px;
 }
 
+.website_portfolio {
+  background-image: url(../images/wp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pro_art {
+  background-image: url(../images/mask_group.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.data {
+  background-image: url(../images/data.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .card button {
-  width: 370px;
+  width: 369px;
   height: 58px;
 }
 
@@ -277,7 +295,7 @@ a {
 
 .about_section {
   position: absolute;
-  width: 100%;
+  width: 1440px;
   height: 1185px;
   left: 0;
   top: 2680px;
@@ -287,7 +305,7 @@ a {
 .about_me_container {
   padding: 0 24px;
   gap: 24px;
-  width: 100%;
+  width: 1440px;
   height: 586px;
 }
 
@@ -337,7 +355,7 @@ a {
   bottom: 0%;
   right: 0%;
   height: 352px;
-  width: 586px;
+  width: 595px;
 }
 
 .divider {
@@ -346,7 +364,7 @@ a {
   height: 2px;
   position: absolute;
   top: 583px;
-  left: 142px;
+  left: 40px;
   display: flex;
   justify-content: center;
 }
@@ -355,14 +373,12 @@ a {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 130px 0px;
-  gap: 192px;
-  position: absolute;
-  width: 80%;
+  padding: 130px 0;
+  gap: 5%;
+  width: 1157px;
   height: 596px;
-  left: 141px;
-  top: 590px;
-  border: 1px solid green;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skills_content {
@@ -402,9 +418,8 @@ footer {
   top: 3865px;
   left: 0;
   display: flex;
-  width: 100%;
-  height: 950px;
-  border: 1px solid green;
+  width: 1440px;
+  height: 660px;
 }
 
 .form-container {
@@ -412,33 +427,59 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   padding: 130px 0;
-  gap: 24px;
-  width: 80%;
+  gap: 30px;
+  width: 1163px;
   height: 590px;
-  border: 1px solid green;
-  position: absolute;
-  left: 141px;
+  margin: 0 auto;
 }
 
 .form-text-container {
   padding: 0;
   gap: 24px;
-  width: 455px;
+  width: 440px;
   height: 256px;
-  border: 1px solid green;
 }
 
 .form-text-container h2 {
-  font-weight: 700;
+  font-weight: 1200;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
+  text-align: start;
   color: #262626;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 24px;
+  width: 684px;
+  height: 330px;
+}
 
+input {
+  width: 100%;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+}
 
+textarea {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
 
+.btn-form {
+  font-family: 'Roboto', sans-serif;
+}
 
+.bottom_navigation {
+  width: 100%;
+  height: 72px;
+  position: absolute;
+  top: 590px;
+}
 
-
+hr {
+  display: none;
+}
