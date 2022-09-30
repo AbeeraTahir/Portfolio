@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile First Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/desktop.css">
 </head>
 <body>
     <header>
@@ -18,19 +19,30 @@
             <div class="bars">
                 <img src="icons/bars.png" alt="nav bars">
             </div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#">Portolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><img src="icons/mail_icon.svg" alt="mail"></a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section class="headline_section">
-        <h1 class="primary_text">
-            Hey There. I’m Abeera
-        </h1>
-        <h2 class="supporting_text">
-            I’am a Software Developer
-        </h2>
-        <div class="description white">
-            <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.
-            </p>
+        <div class="headline_container">
+            <h1 class="primary_text">
+                Hey There. <br>
+                I’m Abeera
+            </h1>
+            <h2 class="supporting_text">
+                I’am a Software Developer
+            </h2>
+            <div class="description white">
+                <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                    don’t hestiate to contact me.
+                </p>
+            </div>
         </div>
         <div class="social_media">
             <ul>
@@ -43,163 +55,168 @@
         <div class="headline_bg_img"></div>
     </section>
     <section class="works">
-        <div class="works_title">
-            <h1>My Recent Works</h1>
-        </div>
-        <div class="multi_post_container">
-            <div class="multi_post_img"></div>
-            <div class="multi_post_stories">
-                <div class="title_post">
-                    <h2>Multi-Post Stories</h2>
-                </div>
-                <div class="multi_post_para">
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                    </p>
-                </div>
-                <div class="tags">
-                    <ul>
-                        <li>css</li>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                </div>
-                <button class="orange_bg white">See project</button>
+        <div class="works_container">
+            <div class="works_title">
+                <h1>My Recent Works</h1>
+                <div class="works_line"></div>
             </div>
-        </div>
-        <div class="works_card_container">
-            <div class="card">
-                <div class="mask_group">
-                    <div class="card_content_container">
-                        <div class="card_content_title">
-                            <h2 class="white">Profesional Art Printing Data</h2>
-                        </div>
-                        <div class="card_content_txt white">
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        </div>
-                        <div class="tags card_tags">
-                            <ul>
-                                <li>html</li>
-                                <li>bootstrap</li>
-                                <li>Ruby</li>
-                            </ul>
+            <div class="multi_post_container">
+                <div class="multi_post_img"></div>
+                <div class="multi_post_stories">
+                    <div class="title_post">
+                        <h2>Multi-Post Stories</h2>
+                    </div>
+                    <div class="multi_post_para">
+                        <p>
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                        </p>
+                    </div>
+                    <div class="tags">
+                        <ul>
+                            <li>css</li>
+                            <li>html</li>
+                            <li>bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="orange_bg white">See project</button>
+                </div>
+            </div>
+            <div class="works_card_container">
+                <div class="card">
+                    <div class="mask_group">
+                        <div class="card_content_container">
+                            <div class="card_content_title">
+                                <h2 class="white">Profesional Art Printing Data</h2>
+                            </div>
+                            <div class="card_content_txt white">
+                                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                            </div>
+                            <div class="tags card_tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>bootstrap</li>
+                                    <li>Ruby</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <button class="orange_bg">See project</button>
                 </div>
-                <button class="orange_bg">See project</button>
-            </div>
-            <div class="card">
-                <div class="mask_group">
-                    <div class="card_content_container">
-                        <div class="card_content_title">
-                            <h2 class="white">Profesional Art Printing Data</h2>
-                        </div>
-                        <div class="card_content_txt white">
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        </div>
-                        <div class="tags card_tags">
-                            <ul>
-                                <li>html</li>
-                                <li>bootstrap</li>
-                                <li>Ruby</li>
-                            </ul>
+                <div class="card">
+                    <div class="mask_group">
+                        <div class="card_content_container">
+                            <div class="card_content_title">
+                                <h2 class="white">Profesional Art Printing Data</h2>
+                            </div>
+                            <div class="card_content_txt white">
+                                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                            </div>
+                            <div class="tags card_tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>bootstrap</li>
+                                    <li>Ruby</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <button class="orange_bg">See project</button>
                 </div>
-                <button class="orange_bg">See project</button>
-            </div>
-            <div class="card">
-                <div class="mask_group">
-                    <div class="card_content_container">
-                        <div class="card_content_title">
-                            <h2 class="white">Profesional Art Printing Data</h2>
-                        </div>
-                        <div class="card_content_txt white">
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        </div>
-                        <div class="tags card_tags">
-                            <ul>
-                                <li>html</li>
-                                <li>bootstrap</li>
-                                <li>Ruby</li>
-                            </ul>
+                <div class="card">
+                    <div class="mask_group">
+                        <div class="card_content_container">
+                            <div class="card_content_title">
+                                <h2 class="white">Profesional Art Printing Data</h2>
+                            </div>
+                            <div class="card_content_txt white">
+                                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                            </div>
+                            <div class="tags card_tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>bootstrap</li>
+                                    <li>Ruby</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <button class="orange_bg">See project</button>
                 </div>
-                <button class="orange_bg">See project</button>
-            </div>
-            <div class="card">
-                <div class="mask_group">
-                    <div class="card_content_container">
-                        <div class="card_content_title">
-                            <h2 class="white">Profesional Art Printing Data</h2>
-                        </div>
-                        <div class="card_content_txt white">
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        </div>
-                        <div class="tags card_tags">
-                            <ul>
-                                <li>html</li>
-                                <li>bootstrap</li>
-                                <li>Ruby</li>
-                            </ul>
+                <div class="card">
+                    <div class="mask_group">
+                        <div class="card_content_container">
+                            <div class="card_content_title">
+                                <h2 class="white">Profesional Art Printing Data</h2>
+                            </div>
+                            <div class="card_content_txt white">
+                                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                            </div>
+                            <div class="tags card_tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>bootstrap</li>
+                                    <li>Ruby</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <button class="orange_bg">See project</button>
                 </div>
-                <button class="orange_bg">See project</button>
-            </div>
-            <div class="card">
-                <div class="mask_group">
-                    <div class="card_content_container">
-                        <div class="card_content_title">
-                            <h2 class="white">Profesional Art Printing Data</h2>
-                        </div>
-                        <div class="card_content_txt white">
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        </div>
-                        <div class="tags card_tags">
-                            <ul>
-                                <li>html</li>
-                                <li>bootstrap</li>
-                                <li>Ruby</li>
-                            </ul>
+                <div class="card">
+                    <div class="mask_group">
+                        <div class="card_content_container">
+                            <div class="card_content_title">
+                                <h2 class="white">Profesional Art Printing Data</h2>
+                            </div>
+                            <div class="card_content_txt white">
+                                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                            </div>
+                            <div class="tags card_tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>bootstrap</li>
+                                    <li>Ruby</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <button class="orange_bg">See project</button>
                 </div>
-                <button class="orange_bg">See project</button>
-            </div>
-            <div class="card">
-                <div class="mask_group">
-                    <div class="card_content_container">
-                        <div class="card_content_title">
-                            <h2 class="white">Profesional Art Printing Data</h2>
-                        </div>
-                        <div class="card_content_txt white">
-                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        </div>
-                        <div class="tags card_tags">
-                            <ul>
-                                <li>html</li>
-                                <li>bootstrap</li>
-                                <li>Ruby</li>
-                            </ul>
+                <div class="card">
+                    <div class="mask_group">
+                        <div class="card_content_container">
+                            <div class="card_content_title">
+                                <h2 class="white">Profesional Art Printing Data</h2>
+                            </div>
+                            <div class="card_content_txt white">
+                                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                            </div>
+                            <div class="tags card_tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>bootstrap</li>
+                                    <li>Ruby</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <button class="orange_bg">See project</button>
                 </div>
-                <button class="orange_bg">See project</button>
             </div>
         </div>
     </section>
     <section class="about_section">
         <div class="about_me_container">
-            <div class="about_me_title">
-                <h1>About me</h1>
+            <div class="about_container">
+                <div class="about_me_title">
+                    <h1>About me</h1>
+                </div>
+                <div class="about_me_description">
+                    <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                </div>
+                <button class="btn_resume orange_bg white">Get My Resume</button>
             </div>
-            <div class="about_me_description">
-                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            </div>
-            <button class="btn_resume orange_bg white">Get My Resume</button>
             <div class="about_bg_img"></div>
             <div class="divider"></div>
         </div>
