@@ -25,6 +25,21 @@ nav {
   right: 194px;
 }
 
+a {
+  text-decoration: none;
+}
+
+.navbar a {
+  width: 150px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  animation-name: logo_rotate;
+  animation-duration: 0.5s;
+}
+
 .nav-items ul {
   list-style: none;
   display: flex;
@@ -41,10 +56,6 @@ nav {
   font-size: 8px;
 }
 
-a {
-  text-decoration: none;
-}
-
 .nav-items ul li a {
   color: #fff;
 }
@@ -53,19 +64,8 @@ a {
   display: none;
 }
 
-.navbar a {
-  width: 150px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
-  animation-name: logo_rotate;
-  animation-duration: 0.5s;
-}
-
 @keyframes logo_rotate {
-  50% {transform: rotate(180deg);}
+  50% { transform: rotate(180deg); }
 }
 
 .headline_section {
