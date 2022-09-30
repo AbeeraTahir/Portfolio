@@ -545,6 +545,7 @@ button:hover {
   color: #f55800;
   border: 1px solid #f55800;
   background-color: #fff5e1;
+  transition: 1s ease-in-out;
 }
 
 button:active {
@@ -577,3 +578,4 @@ hr {
   cursor: pointer;
   transform: scale(1.1);
 }
+
