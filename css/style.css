@@ -553,18 +553,6 @@ button:active {
   background-color: #e05304;
 }
 
-button:disabled {
-  color: #5b5957;
-  background-color: #f4f1f0;
-  border: 1px solid #f4f1f0;
-}
-
-button:enabled {
-  color: #fff;
-  background-color: #f55800;
-  border: 1px solid #f55800;
-}
-
 .bottom_navigation ul {
   list-style: none;
   display: flex;
