@@ -165,7 +165,7 @@ nav {
 
 .works_line {
   background-image: url(../images/works_line.png);
-  width: 80%;
+  width: 90%;
   height: 2px;
 }
 
@@ -441,11 +441,6 @@ nav {
   color: #fff;
 }
 
-.social_media ul li:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
 footer {
   background: #fff;
 }
@@ -545,7 +540,7 @@ button:hover {
   color: #f55800;
   border: 1px solid #f55800;
   background-color: #fff5e1;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 button:active {
@@ -579,3 +574,17 @@ hr {
   transform: scale(1.1);
 }
 
+.social_media ul li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 0.3s ease-in;
+}
+
+.form-text-container h2:hover {
+  transform: translate(3px, 0);
+}

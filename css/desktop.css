@@ -30,16 +30,15 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .nav-items ul li {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-weight: 400;
+  font-size: 8px;
 }
 
 a {
@@ -54,27 +53,19 @@ a {
   display: none;
 }
 
-.logo_placeholder {
-  gap: 10px;
-  position: absolute;
-  width: 116px;
-  left: 142px;
-}
-
-.logo {
-  width: 92px;
-  height: 20px;
+.navbar a {
+  width: 150px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 20px;
   font-weight: 700;
   line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  animation-name: logo_rotate;
+  animation-duration: 0.5s;
+}
+
+@keyframes logo_rotate {
+  50% {transform: rotate(180deg);}
 }
 
 .headline_section {
@@ -127,6 +118,10 @@ a {
   font-size: 40px;
   line-height: 52px;
   width: 400px;
+}
+
+.works_line {
+  width: 80%;
 }
 
 .multi_post_container {
