@@ -59,7 +59,7 @@ a {
 
 .nav-items ul li a:hover {
   border-bottom: 2px solid #fff;
-  transition: 0.5s linear;
+  transition: 1s ease-in-out;
 }
 
 .bars {
@@ -125,7 +125,7 @@ a {
   gap: 24px;
 }
 
-.works_title h1 {
+.works_title h2 {
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
