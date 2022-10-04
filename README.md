@@ -12,7 +12,7 @@ This repository contains the design of the portfolio website.
 
 ## Getting Started
 
-> To clone the project select the desired directory in cmd and run: git clone https://abeeratahir.github.io/Portfolio/
+> To clone the project select the desired directory in cmd and run: git clone https://github.com/AbeeraTahir/Portfolio.git
 
 ### Prerequisites
 
