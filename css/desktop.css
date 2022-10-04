@@ -34,9 +34,9 @@ a {
   width: 150px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 1.25rem;
   animation-name: logo_rotate;
   animation-duration: 0.5s;
 }
@@ -54,7 +54,7 @@ a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 
 .nav-items ul li a:hover {
@@ -85,22 +85,22 @@ a {
 
 .primary_text {
   font-weight: 400;
-  font-size: 72px;
-  line-height: 82px;
+  font-size: 4.5rem;
+  line-height: 5.125rem;
 }
 
 .supporting_text {
   font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2rem;
+  line-height: 2.75rem;
   color: #fff;
 }
 
 .description {
   width: 60%;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 .social_media {
@@ -127,8 +127,8 @@ a {
 
 .works_title h2 {
   font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
   width: 400px;
 }
 
@@ -202,8 +202,8 @@ a {
 
 .form-text-container h2 {
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
   color: #262626;
   text-align: left;
   height: 100%;
