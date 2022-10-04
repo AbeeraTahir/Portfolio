@@ -44,11 +44,6 @@ header {
   width: 150px;
 }
 
-.container {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
 nav {
   display: flex;
   flex-direction: row;
@@ -90,6 +85,8 @@ nav {
   height: 100vh;
   gap: 12px;
   justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .primary_text {
@@ -135,8 +132,7 @@ nav {
 }
 
 .works {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 24px;
   background: #fff;
 }
 
@@ -244,7 +240,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
-  grid-gap: 24px 24px;
+  grid-gap: 24px;
 }
 
 .card {
@@ -569,12 +565,12 @@ hr {
   margin-bottom: 8px;
 }
 
-.social ul li:hover {
+.social_media li:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
 
-.social_media ul li:hover {
+.bottom_navigation ul li:hover {
   cursor: pointer;
   transform: scale(1.1);
 }

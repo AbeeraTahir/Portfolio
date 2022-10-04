@@ -12,6 +12,7 @@
 header {
   display: flex;
   padding-left: 94px;
+  z-index: 1;
 }
 
 nav {
@@ -48,16 +49,12 @@ a {
   gap: 20px;
 }
 
-.nav-items ul li {
+.nav-items ul li a {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 8px;
-}
-
-.nav-items ul li a {
-  color: #fff;
+  font-size: 17px;
 }
 
 .bars {
@@ -74,6 +71,11 @@ a {
   background-position: right center;
   background-color: #1c1a19;
   background-size: 40%;
+}
+
+.headline_container {
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .primary_text {
@@ -104,6 +106,11 @@ a {
   justify-content: flex-start;
   gap: 20px;
   margin-left: -100px;
+}
+
+.works {
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .works_title {
@@ -143,6 +150,8 @@ a {
   background-image: url("../images/about_desktop_image.png");
   background-position: center right;
   background-size: 45%;
+  padding-left: 135px;
+  padding-right: 140px;
 }
 
 .divider {
