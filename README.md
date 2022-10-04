@@ -1,16 +1,18 @@
-# Mobile-First-Portfolio-Project
+# Portfolio
 
-This repository contains the mobile first design of the portfolio website.
+This repository contains the design of the portfolio website.
 
 ## Built With
 
 - HTML
 - CSS
 
+## Live Demo
+> [Click here for live preview](https://abeeratahir.github.io/Portfolio/)
+
 ## Getting Started
 
-
-**Creating mobile first design of Portfolio Project.**
+> To clone the project select the desired directory in cmd and run: git clone https://abeeratahir.github.io/Portfolio/
 
 ### Prerequisites
 
@@ -19,7 +21,7 @@ This repository contains the mobile first design of the portfolio website.
 
 ## Authors
 
-👤 **Author1**
+👤 **Abeera Tahir**
 
 - GitHub: [@githubhandle](https://github.com/AbeeraTahir)
 - Twitter: [@twitterhandle]( https://twitter.com/AbeeraTahir8?t=z5CjMpmHMZmS98i09gUpYA&s=08)
