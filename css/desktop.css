@@ -57,6 +57,11 @@ a {
   font-size: 17px;
 }
 
+.nav-items ul li a:hover {
+  border-bottom: 2px solid #fff;
+  transition: 0.5s linear;
+}
+
 .bars {
   display: none;
 }
