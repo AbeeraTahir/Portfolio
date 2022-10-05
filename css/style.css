@@ -17,7 +17,7 @@ body {
 }
 
 .orange_bg {
-  background: #ff6b00;
+  background: #b3612e;
 }
 
 header {
@@ -38,8 +38,8 @@ header {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   margin: 12px;
   width: 150px;
 }
@@ -93,8 +93,8 @@ nav {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
+  font-size: 3.5rem;
+  line-height: 4rem;
   color: #ff6b00;
 }
 
@@ -102,8 +102,8 @@ nav {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #fff5e1;
 }
 
@@ -112,8 +112,8 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #fff;
   width: 85%;
 }
@@ -150,18 +150,18 @@ nav {
   gap: 48px;
 }
 
-.works_title h1 {
+.works_title h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 38px;
-  line-height: 52px;
+  font-size: 2.375rem;
+  line-height: 3.25rem;
   color: #1c1a19;
 }
 
 .works_line {
   background-image: url(../images/works_line.png);
-  width: 90%;
+  width: 97%;
   height: 2px;
 }
 
@@ -185,8 +185,8 @@ nav {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2rem;
+  line-height: 2.75rem;
   color: #091e42;
 }
 
@@ -194,8 +194,8 @@ nav {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #091e42;
 }
 
@@ -217,8 +217,8 @@ nav {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
   color: #091e42;
 }
 
@@ -230,8 +230,8 @@ nav {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.063rem;
+  line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -286,8 +286,8 @@ nav {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.063rem;
+  line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
@@ -304,20 +304,20 @@ nav {
   margin-top: 76px;
 }
 
-.card_content_container h2 {
+.card_content_container h3 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2rem;
+  line-height: 2.75rem;
 }
 
 .card_content_container p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .card_tags ul li {
@@ -349,8 +349,8 @@ nav {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 70px;
-  line-height: 88px;
+  font-size: 4.375rem;
+  line-height: 5.5rem;
   color: #ff6b00;
 }
 
@@ -358,8 +358,8 @@ nav {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #f4f5f7;
 }
 
@@ -370,7 +370,7 @@ nav {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 1.063rem;
   text-align: center;
   letter-spacing: 0.027em;
   border: none;
@@ -409,12 +409,12 @@ nav {
   gap: 20px;
 }
 
-.skill_title h1 {
+.skill_title h3 {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 44px;
+  font-size: 1.875rem;
+  line-height: 2.75rem;
   text-align: center;
 }
 
@@ -432,8 +432,8 @@ nav {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
+  font-size: 1.375rem;
+  line-height: 2.688rem;
   color: #fff;
 }
 
@@ -460,8 +460,8 @@ footer {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 1200;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2rem;
+  line-height: 2.75rem;
   text-align: center;
   color: #172b4d;
 }
@@ -481,8 +481,8 @@ input {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
   display: flex;
   align-items: center;
   color: #979493;
@@ -502,8 +502,8 @@ textarea {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
 }
 
 textarea::placeholder {
