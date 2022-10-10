@@ -78,7 +78,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 12px 24px 0 24px;
+  padding: 24px;
 }
 
 .mobile_menu ul {
@@ -89,17 +89,18 @@ nav {
 }
 
 .nav_links {
-  border-bottom: 1px solid #6F6C6B;
-  padding: 8px 0;
+  border-bottom: 1px solid #6f6c6b;
+  padding: 8px;
 }
 
 .nav_links a {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #FFF5E1;
+  color: #fff5e1;
+  text-decoration: none;
 }
 
 .bars {
