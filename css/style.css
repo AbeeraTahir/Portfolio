@@ -66,6 +66,11 @@ nav {
   display: none;
 }
 
+.cross_icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .mobile_menu {
   background-color: #3c3a39;
   width: 100%;
@@ -73,10 +78,28 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  padding: 12px 24px 0 24px;
 }
 
 .mobile_menu ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav_links {
+  border-bottom: 1px solid #6F6C6B;
+  padding: 8px 0;
+}
+
+.nav_links a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFF5E1;
 }
 
 .bars {
