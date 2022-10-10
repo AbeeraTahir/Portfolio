@@ -41,6 +41,10 @@ a {
   animation-duration: 0.5s;
 }
 
+.mobile_menu {
+  display: none;
+}
+
 .nav-items ul {
   list-style: none;
   display: flex;
