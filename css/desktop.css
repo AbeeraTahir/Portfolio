@@ -155,6 +155,10 @@ a {
   gap: 24px;
 }
 
+.card_content_container {
+  margin-top: 76px;
+}
+
 .about_container {
   background-image: url("../images/about_desktop_image.png");
   background-position: center right;

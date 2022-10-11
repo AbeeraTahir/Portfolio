@@ -17,7 +17,7 @@ body {
 }
 
 .orange_bg {
-  background: #b3612e;
+  background: #f55800;
 }
 
 header {
@@ -296,27 +296,6 @@ nav {
   height: 338px;
 }
 
-.website_portfolio {
-  background-image: url(../images/wp.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.pro_art {
-  background-image: url(../images/mask_group.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.data {
-  background-image: url(../images/data.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .card button {
   width: 100%;
   height: 48px;
@@ -342,7 +321,7 @@ nav {
   padding: 8px 16px;
   gap: 12px;
   height: 248px;
-  margin-top: 76px;
+  margin-top: 66px;
 }
 
 .card_content_container h3 {
