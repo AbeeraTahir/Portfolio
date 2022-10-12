@@ -468,6 +468,7 @@ nav {
   left: 0;
   padding: 60px 16px;
   backdrop-filter: blur(2px);
+  overflow: scroll;
 }
 
 .popup {
@@ -486,7 +487,7 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 12px;
+  gap: 16px;
 }
 
 .cross {
@@ -506,7 +507,7 @@ nav {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 44px;
   color: #172b4d;
 }
