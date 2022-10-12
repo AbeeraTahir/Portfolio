@@ -17,6 +17,7 @@ const projects = {
   multiPost: {
     name: 'Multi-Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image: 'images/multi_post.png',
     technologies: ['css', 'html', 'bootstrap', 'Ruby'],
     liveLink: '#',
@@ -28,7 +29,7 @@ const projects = {
       name: 'Profesional Art Printing Data More',
       description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'BootStrap', 'Ruby'],
+      technologies: ['HTML', 'Bootstrap', 'Ruby'],
       image: 'images/mask_group.png',
       liveLink: '#',
       source: 'https://github.com/AbeeraTahir/Portfolio.git',
@@ -38,7 +39,7 @@ const projects = {
       name: 'Data Dashboard Healthcare',
       description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'BootStrap', 'Ruby'],
+      technologies: ['HTML', 'Bootstrap', 'Ruby'],
       image: 'images/data.png',
       liveLink: '#',
       source: 'https://github.com/AbeeraTahir/Portfolio.git',
@@ -48,7 +49,7 @@ const projects = {
       name: 'Website Protfolio',
       description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'BootStrap', 'Ruby'],
+      technologies: ['HTML', 'Bootstrap', 'Ruby'],
       image: 'images/wp.png',
       liveLink: '#',
       source: 'https://github.com/AbeeraTahir/Portfolio.git',
@@ -58,7 +59,7 @@ const projects = {
       name: 'Profesional Art Printing Data More',
       description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'BootStrap', 'Ruby'],
+      technologies: ['HTML', 'Bootstrap', 'Ruby'],
       image: 'images/mask_group.png',
       liveLink: '#',
       source: 'https://github.com/AbeeraTahir/Portfolio.git',
@@ -68,7 +69,7 @@ const projects = {
       name: 'Data Dashboard Healthcare',
       description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'BootStrap', 'Ruby'],
+      technologies: ['HTML', 'Bootstrap', 'Ruby'],
       image: 'images/data.png',
       liveLink: '#',
       source: 'https://github.com/AbeeraTahir/Portfolio.git',
@@ -78,7 +79,7 @@ const projects = {
       name: 'Website Protfolio ',
       description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'BootStrap', 'Ruby'],
+      technologies: ['HTML', 'Bootstrap', 'Ruby'],
       image: 'images/wp.png',
       liveLink: '#',
       source: 'https://github.com/AbeeraTahir/Portfolio.git',
@@ -103,13 +104,13 @@ projects.multiPost.technologies.forEach((item) => {
 });
 multiPostSection += `</ul>
       </div>
-      <button class="orange_bg white">See project</button>
+      <button class="orange_bg white btn_multi">See project</button>
     </div>
   </div>`;
 let cardsSection = '<div class="works_card_container">';
 projects.workCards.forEach((card) => {
   cardsSection += `<div class="card">
-      <div class="mask_group" style="background-image: url(${card.image}); background-repeat: no-repeat; background-size: cover; background-position: center">
+      <div class="mask_group" style="background-image: url(${card.image})">
           <div class="card_content_container">
               <h3 class="white">${card.name}</h3>
                 <p class="white">${card.description}</p>
@@ -122,9 +123,72 @@ projects.workCards.forEach((card) => {
                   </div>
           </div>
         </div>
-      <button class="orange_bg">See project</button>
+      <button class="orange_bg white btn_see_project">See project</button>
   </div>`;
 });
 cardsSection += '</div>';
 workSection = `${workSection + multiPostSection + cardsSection}</div>`;
 document.getElementById('work').innerHTML = workSection;
+
+const btnSeeProject = document.getElementsByClassName('btn_see_project');
+const btnSeeProjectArray = Array.from(btnSeeProject);
+
+function getProjects(index) {
+  let project = `<div class="popup">
+      <div class="popup_head">
+      <div class="popup_title_container">
+      <h2>${index.name}</h2>
+      <div class="cross"><img class="popup_cross" src="icons/cross_icon.svg" alt="cross icon"></div>
+    </div>
+    <div class="popup_tags">
+        <ul>`;
+  index.technologies.forEach((skill) => {
+    project += `<li>${skill}</li>`;
+  });
+  project += `</ul>
+    </div>
+      </div>
+      <div class="popup_content_container">
+        <img src="${index.image}" alt="poster">
+        <div class="popup_content">
+          <p>${index.popUpDescription}</p>
+          <div class="popup_buttons">
+            <button class="orange_bg white btn_see_live"><a href="${index.liveLink}" target="_blank">See Live</a><img src="icons/see_live.svg" alt="live"></button>
+            <button class="orange_bg white btn_see_source"><a href="${index.source}" target="_blank">See Source</a></Source><img src="icons/github.png" alt="GitHub"></button>
+          </div>
+        </div>
+      </div>
+    </div>`;
+  return project;
+}
+
+function loadMultiPostPopUp() {
+  const multiPostPopUp = getProjects(projects.multiPost);
+  return multiPostPopUp;
+}
+
+function loadProjectPopUp(p) {
+  const projectsPopUp = getProjects(projects.workCards[p]);
+  return projectsPopUp;
+}
+
+const popUpSection = document.querySelector('.popup_section');
+
+const btnMultiPost = document.querySelector('.btn_multi');
+btnMultiPost.addEventListener('click', () => {
+  popUpSection.innerHTML = loadMultiPostPopUp();
+  popUpSection.classList.toggle('hide');
+  document.querySelector('.popup_cross').addEventListener('click', () => {
+    popUpSection.classList.toggle('hide');
+  });
+});
+
+btnSeeProjectArray.forEach((project, i) => {
+  project.addEventListener('click', () => {
+    popUpSection.innerHTML = loadProjectPopUp(i);
+    popUpSection.classList.toggle('hide');
+    document.querySelector('.popup_cross').addEventListener('click', () => {
+      popUpSection.classList.toggle('hide');
+    });
+  });
+});
