@@ -466,12 +466,13 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 60px 16px;
   backdrop-filter: blur(2px);
 }
 
 .popup {
-  width: 99%;
+  width: 90%;
+  height: 650px;
+  margin: 60px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
