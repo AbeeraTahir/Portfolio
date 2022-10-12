@@ -471,7 +471,7 @@ nav {
 
 .popup {
   width: 90%;
-  height: 650px;
+  height: 80%;
   margin: 60px auto;
   display: flex;
   flex-direction: column;
