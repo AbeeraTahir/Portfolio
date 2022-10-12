@@ -192,3 +192,14 @@ btnSeeProjectArray.forEach((project, i) => {
     });
   });
 });
+const form = document.getElementById('contact_form');
+form.addEventListener('submit', (e) => {
+  const email = document.getElementById('email').value;
+  const errorMsgElement = document.querySelector('.error_msg');
+  const errorMsg = 'Email should be in lower case.';
+  const lowerCaseEmail = document.getElementById('email').value.toLowerCase();
+  if (email !== lowerCaseEmail) {
+    errorMsgElement.innerHTML = errorMsg;
+    e.preventDefault();
+  }
+});
