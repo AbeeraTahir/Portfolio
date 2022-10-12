@@ -570,6 +570,14 @@ nav {
   gap: 12px;
 }
 
+.error_msg {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #f00;
+}
+
 .popup_buttons button {
   display: flex;
   flex-direction: row;
