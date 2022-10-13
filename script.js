@@ -226,3 +226,16 @@ userMessage.addEventListener('input', () => {
   formData.userMessage = userMessage.value;
   localStorage.setItem('formData', JSON.stringify(formData));
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+  formData = JSON.parse(localStorage.getItem('formData') || '{}');
+  if (formData.userName) {
+    userName.value = formData.userName;
+  }
+  if (formData.userEmail) {
+    userEmail.value = formData.userEmail;
+  }
+  if (formData.userMessage) {
+    userMessage.value = formData.userMessage;
+  }
+});
