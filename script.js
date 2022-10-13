@@ -203,3 +203,39 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+const userName = document.getElementById('full-name');
+const userEmail = document.getElementById('email');
+const userMessage = document.getElementById('message');
+
+let formData = {
+  userName: '',
+  userEmail: '',
+  userMessage: '',
+};
+
+userName.addEventListener('input', () => {
+  formData.userName = userName.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+userEmail.addEventListener('input', () => {
+  formData.userEmail = userEmail.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+userMessage.addEventListener('input', () => {
+  formData.userMessage = userMessage.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  formData = JSON.parse(localStorage.getItem('formData') || '{}');
+  if (formData.userName) {
+    userName.value = formData.userName;
+  }
+  if (formData.userEmail) {
+    userEmail.value = formData.userEmail;
+  }
+  if (formData.userMessage) {
+    userMessage.value = formData.userMessage;
+  }
+});
