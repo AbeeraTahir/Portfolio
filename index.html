@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abeera Tahir - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/desktop.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <a href="#" class="white">Abeera Tahir</a>
-            <nav>
+    <header class="bg-secondary-dark">
+        <div class="navbar flex-align-center">
+            <a href="#" class="text-white font-roboto">Abeera Tahir</a>
+            <nav class="d-flex">
                 <div class="bars"><img src="icons/bars.png" alt="nav bars"></div>
                 <div class="nav-items">
-                    <ul>
-                        <li><a href="#work">Portolio</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#"><img src="icons/mail_icon.svg" alt="mail icon"></a></li>
+                    <ul class="flex-align-center">
+                        <li><a class="text-white font-inter" href="#work">Portolio</a></li>
+                        <li><a class="text-white font-inter" href="#about">About</a></li>
+                        <li><a class="text-white font-inter" href="#contact">Contact</a></li>
+                        <li><a class="text-white font-inter" href="#"><img src="icons/mail_icon.svg" alt="mail icon"></a></li>
                     </ul>
                 </div>
-                <div class="mobile_menu hide">
-                    <ul>
-                        <li class="cross_icon"><img src="icons/cross_icon.svg" alt="cross icon"></li>
+                <div class="mobile_menu bg-secondary-dark hide">
+                    <ul class="d-flex">
+                        <li class="cross_icon d-flex"><img src="icons/cross_icon.svg" alt="cross icon"></li>
                         <li class="nav_links"><a href="#work">Portolio</a></li>
                         <li class="nav_links"><a href="#about">About</a></li>
                         <li class="nav_links"><a href="#contact">Contact</a></li>
@@ -33,19 +34,19 @@
             </nav>
         </div>
     </header>
-    <section class="headline_section">
-        <div class="headline_container">
-            <h1 class="primary_text">
+    <section class="headline_section bg-primary-dark">
+        <div class="headline_container d-flex">
+            <h1 class="primary_text font-crete-round fw-4 text-orange">
                 Hey There. <br>
                 I’m Abeera
             </h1>
-            <h2 class="supporting_text">
+            <h2 class="supporting_text font-roboto fw-4 text-secondary-white">
                 I’am a Software Developer
             </h2>
-            <p class="description">I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, 
+            <p class="description text-white font-poppins">I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, 
                 don’t hesitate to contact me.
             </p>
-            <ul class="social_media">
+            <ul class="social_media d-flex">
                 <li><a href="#"><img src="icons/github.png" alt="github icon"></a></li>
                 <li><a href="#"><img src="icons/linkedin.png" alt="linkedin icon"></a></li>
                 <li><a href="#"><img src="icons/angelist.png" alt="angelist icon"></a></li>
@@ -58,24 +59,24 @@
     </section>
     <section class="popup_section hide">
     </section>
-    <section id="about" class="about_section">
-        <div class="about_me_container">
-            <div class="about_container">
-                <h2 class="about_me_title">About me</h2>
-                <p class="about_me_description">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                <button class="btn_resume orange_bg white">Get My Resume</button>
+    <section id="about" class="about_section bg-primary-dark">
+        <div class="about_me_container d-flex">
+            <div class="about_container d-flex">
+                <h2 class="about_me_title text-orange font-crete-round fw-4">About me</h2>
+                <p class="about_me_description font-inter fw-4">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <button class="btn-primary">Get My Resume</button>
             </div>
         </div>
         <div class="divider"></div>
-        <div class="skills_container container">
-            <div class="skills_content">
-                <div class="skill_inner_section">
-                    <div class="skill_title">
+        <div class="skills_container d-flex container">
+            <div class="skills_content d-flex">
+                <div class="skill_inner_section d-flex">
+                    <div class="skill_title flex-align-center">
                         <img src="icons/quad.png" alt="diamond shape">
-                        <h3 class="white">Language</h3>
+                        <h3 class="text-white">Language</h3>
                     </div>
                     <div class="lang_names">
-                        <ul>
+                        <ul class="d-flex font-inter text-white">
                             <li>Javascript</li>
                             <li>Ruby</li>
                             <li>Html</li>
@@ -84,14 +85,14 @@
                     </div>
                 </div>
             </div>
-            <div class="skills_content">
-                <div class="skill_inner_section">
-                    <div class="skill_title">
+            <div class="skills_content d-flex">
+                <div class="skill_inner_section d-flex">
+                    <div class="skill_title flex-align-center">
                         <img src="icons/square.png" alt="square shape">
-                        <h3 class="white">Frameworks</h3>
+                        <h3 class="text-white">Frameworks</h3>
                     </div>
                     <div class="lang_names">
-                        <ul>
+                        <ul class="d-flex font-inter text-white">
                             <li>Bootstrap</li>
                             <li>Ruby on Rails</li>
                             <li>RSPec</li>
@@ -101,14 +102,14 @@
                     </div>
                 </div>
             </div>
-            <div class="skills_content">
-                <div class="skill_inner_section">
-                    <div class="skill_title">
+            <div class="skills_content d-flex">
+                <div class="skill_inner_section d-flex">
+                    <div class="skill_title flex-align-center">
                         <img src="icons/circle.png" alt="circle shape">
-                        <h3 class="white">Skills</h3>
+                        <h3 class="text-white">Skills</h3>
                     </div>
                     <div class="lang_names">
-                        <ul>
+                        <ul class="d-flex font-inter text-white">
                             <li>Codekit</li>
                             <li>Github</li>
                             <li>Codepen</li>
@@ -121,23 +122,23 @@
         </div>
     </section>
     <footer>
-        <div id="contact" class="form-container">
-            <div class="form-text-container">
-                <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+        <div id="contact" class="form-container flex-align-center font-inter fw-4">
+            <div class="form-text-container d-flex">
+                <h2 class="text-secondary-dark">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
             </div>
-            <form id="contact_form" action="https://formspree.io/f/mlevbkgd" method="post">
+            <form id="contact_form" action="https://formspree.io/f/mlevbkgd" method="post" class="d-flex">
                 <label hidden for="full-name"> Full Name </label>
                 <input type="text" name="full-name" id="full-name" maxlength="30" placeholder="Full name" required>
                 <label hidden for="email"> Email address </label>
                 <input type="email" name="email" id="email" placeholder="Email address" required> 
                 <label hidden for="message"> Message </label>
-                <textarea name="message" id="message" maxlength="500" placeholder="Enter text here" required></textarea>
-                <button type="submit" class="btn-form orange_bg white">Get in touch</button>
+                <textarea name="message" id="message" maxlength="500" placeholder="Enter text here" class="font-inter fw-4" required></textarea>
+                <button type="submit" class="btn-form btn-primary">Get in touch</button>
                 <div class="error_msg"></div>
             </form>
         </div>
-        <div class="bottom_navigation">
-            <ul>
+        <div class="bottom_navigation d-flex">
+            <ul class="flex-align-center">
                 <li><a href="#"><img src="icons/github_dark.png" alt="github icon"></a></li>
                 <li><a href="#"><img src="icons/linkedin_dark.png" alt="linkedin icon"></a></li>
                 <li><a href="#"><img src="icons/angelist_dark.png" alt="angelist icon"></a></li>

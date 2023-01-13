@@ -1,21 +1,13 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   padding-left: 140px;
   padding-right: 140px;
 }
 
 header {
-  display: flex;
   padding-left: 94px;
 }
 
 nav {
-  display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -31,8 +23,6 @@ a {
 
 .navbar a {
   width: 150px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.25rem;
@@ -46,23 +36,17 @@ a {
 
 .nav-items ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 20px;
 }
 
 .nav-items ul li a {
-  color: #fff;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 1.063rem;
 }
 
 .nav-items ul li a:hover {
-  border-bottom: 2px solid #fff;
-  transition: 1s ease-in-out;
+  border-bottom: 2px solid var(--primary-white);
+  transition: all 2s linear;
 }
 
 .bars {
@@ -77,7 +61,6 @@ a {
   background-image: url(../images/headline_desktop_image.png);
   background-repeat: no-repeat;
   background-position: right center;
-  background-color: #1c1a19;
   background-size: 40%;
 }
 
@@ -87,7 +70,6 @@ a {
 }
 
 .primary_text {
-  font-weight: 400;
   font-size: 4.5rem;
   line-height: 5.125rem;
 }
@@ -96,22 +78,18 @@ a {
   font-weight: 500;
   font-size: 2rem;
   line-height: 2.75rem;
-  color: #fff;
 }
 
 .description {
   width: 60%;
-  font-weight: 400;
   font-size: 1.25rem;
   line-height: 2rem;
 }
 
 .social_media {
   position: absolute;
-  display: flex;
   flex-direction: column;
   list-style: none;
-  justify-content: flex-start;
   gap: 20px;
   margin-left: -100px;
 }
@@ -122,14 +100,12 @@ a {
 }
 
 .works_title {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 24px;
 }
 
 .works_title h2 {
-  font-weight: 400;
   font-size: 2.5rem;
   line-height: 3.25rem;
   width: 400px;
@@ -167,11 +143,7 @@ a {
 }
 
 .divider {
-  background: #fff;
-  margin-top: 10px;
-  margin-bottom: 128px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto 128px auto;
   width: 82%;
   height: 0.5px;
 }
@@ -187,7 +159,6 @@ a {
 }
 
 .skill_inner_section {
-  display: flex;
   flex-direction: column;
 }
 
@@ -208,10 +179,6 @@ a {
   width: 80%;
   height: 85%;
   margin: 60px auto;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  border: 1px solid #dfe1e6;
   gap: 24px;
   padding: 16px 24px 24px 24px;
   overflow: auto;
@@ -219,19 +186,16 @@ a {
 
 .popup_head {
   width: 100%;
-  display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0;
   gap: 12px;
 }
 
 .popup_title_container {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 12;
+  gap: 12px;
   width: 100%;
   height: 40px;
 }
@@ -245,7 +209,6 @@ a {
 }
 
 .popup_content_container {
-  display: flex;
   flex-direction: row;
   gap: 24px;
   padding: 0;
@@ -261,7 +224,6 @@ a {
 .popup_content {
   width: 40%;
   height: 100%;
-  display: flex;
   flex-direction: column;
   gap: 12px;
 }
