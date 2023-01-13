@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Variables */
+
+:root {
+  --orange-bg: #f55800;
+  --orange-text: #ff6b00;
+  --dark-primary: #1c1a19;
+  --dark-secondary: #3c3a39;
+  --dark-third: #091e42;
+  --dark-fourth: #172b4d;
+  --primary-white: #fff;
+  --secondary-white: #fff5e1;
+  --grey-light: #dfe1e6;
+  --grey-dark: #979493;
+}
+
+/* Global CSS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* Helper classes */
+
+.text-white {
+  color: var(--primary-white);
+}
+
+.text-dark {
+  color: var(--dark-third);
+}
+
+.text-secondary-dark {
+  color: var(--dark-fourth);
+}
+
+.text-orange {
+  color: var(--orange-text);
+}
+
+.bg-primary-dark {
+  background-color: var(--dark-primary);
+}
+
+.bg-secondary-dark {
+  background-color: var(--dark-secondary);
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-crete-round {
+  font-family: 'Crete Round', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-secondary-white {
+  color: var(--secondary-white);
+}
+
+.fw-4 {
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: var(--orange-bg);
+  color: var(--primary-white);
+  font-family: 'Inter', sans-serif;
+  border: none;
+  font-weight: 600;
+  font-size: 1.063rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  height: 48px;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  color: var(--orange-bg);
+  border: 1px solid var(--orange-bg);
+  background-color: var(--secondary-white);
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-primary:active {
+  color: var(--primary-white);
+  border: 1px solid#e05304;
+  background-color: #e05304;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.tags {
+  width: 92%;
+  height: 40px;
+}
+
+.tags ul {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

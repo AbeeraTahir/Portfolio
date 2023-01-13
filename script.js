@@ -86,16 +86,16 @@ const projects = {
     },
   ],
 };
-let workSection = `<div class="works_title">
-<h2>My Recent Works</h2>
+let workSection = `<div class="works_title flex-align-center">
+<h2 class="font-crete-round fw-4">My Recent Works</h2>
 <div class="works_line"></div>
 </div>
-<div class="works_container">`;
-let multiPostSection = `<div class="multi_post_container">
+<div class="works_container d-flex">`;
+let multiPostSection = `<div class="multi_post_container d-flex">
 <img class="multi_post_img" src="${projects.multiPost.image}" alt="poster">
-<div class="multi_post_stories">
-    <h3 class="title_post">${projects.multiPost.name}</h3>
-    <p class="multi_post_para">
+<div class="multi_post_stories d-flex text-dark">
+    <h3 class="title_post font-crete-round fw-4">${projects.multiPost.name}</h3>
+    <p class="multi_post_para font-inter fw-4">
     ${projects.multiPost.description}</p>
     <div class="tags">
       <ul>`;
@@ -104,16 +104,16 @@ projects.multiPost.technologies.forEach((item) => {
 });
 multiPostSection += `</ul>
       </div>
-      <button class="orange_bg white btn_multi">See project</button>
+      <button class="btn-primary btn-multi">See project</button>
     </div>
   </div>`;
 let cardsSection = '<div class="works_card_container">';
 projects.workCards.forEach((card) => {
-  cardsSection += `<div class="card">
+  cardsSection += `<div class="card d-flex">
       <div class="mask_group" style="background-image: url(${card.image})">
-          <div class="card_content_container">
-              <h3 class="white">${card.name}</h3>
-                <p class="white">${card.description}</p>
+          <div class="card_content_container text-white">
+              <h3 class="font-crete-round fw-4">${card.name}</h3>
+                <p class="font-inter fw-4">${card.description}</p>
                   <div class="tags card_tags">
                       <ul>`;
   card.technologies.forEach((item) => {
@@ -123,7 +123,7 @@ projects.workCards.forEach((card) => {
                   </div>
           </div>
         </div>
-      <button class="orange_bg white btn_see_project">See project</button>
+      <button class="btn-primary btn_see_project">See project</button>
   </div>`;
 });
 cardsSection += '</div>';
@@ -134,27 +134,27 @@ const btnSeeProject = document.getElementsByClassName('btn_see_project');
 const btnSeeProjectArray = Array.from(btnSeeProject);
 
 function getProjects(index) {
-  let project = `<div class="popup">
-      <div class="popup_head">
-      <div class="popup_title_container">
-      <h2>${index.name}</h2>
+  let project = `<div class="popup flex-align-center">
+      <div class="popup_head d-flex">
+      <div class="popup_title_container d-flex">
+      <h2 class="font-roboto text-secondary-dark">${index.name}</h2>
       <div class="cross"><img class="popup_cross" src="icons/cross_icon.svg" alt="cross icon"></div>
     </div>
     <div class="popup_tags">
-        <ul>`;
+        <ul class="d-flex">`;
   index.technologies.forEach((skill) => {
-    project += `<li>${skill}</li>`;
+    project += `<li class="font-poppins">${skill}</li>`;
   });
   project += `</ul>
     </div>
       </div>
-      <div class="popup_content_container">
+      <div class="popup_content_container d-flex">
         <img src="${index.image}" alt="poster">
-        <div class="popup_content">
-          <p>${index.popUpDescription}</p>
-          <div class="popup_buttons">
-            <button class="orange_bg white btn_see_live"><a href="${index.liveLink}" target="_blank">See Live</a><img src="icons/see_live.svg" alt="live"></button>
-            <button class="orange_bg white btn_see_source"><a href="${index.source}" target="_blank">See Source</a></Source><img src="icons/github.png" alt="GitHub"></button>
+        <div class="popup_content d-flex">
+          <p class="font-inter fw-4">${index.popUpDescription}</p>
+          <div class="popup_buttons d-flex">
+            <button class="btn-primary btn_see_live flex-align-center"><a href="${index.liveLink}" target="_blank">See Live</a><img src="icons/see_live.svg" alt="live"></button>
+            <button class="btn-primary white btn_see_source flex-align-center"><a href="${index.source}" target="_blank">See Source</a></Source><img src="icons/github.png" alt="GitHub"></button>
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@ function loadProjectPopUp(p) {
 
 const popUpSection = document.querySelector('.popup_section');
 
-const btnMultiPost = document.querySelector('.btn_multi');
+const btnMultiPost = document.querySelector('.btn-multi');
 btnMultiPost.addEventListener('click', () => {
   popUpSection.innerHTML = loadMultiPostPopUp();
   popUpSection.classList.toggle('hide');

@@ -1,11 +1,12 @@
 # Portfolio
 
-This repository contains the design of the portfolio website.
+This is the portfolio website created to showcase my projects. It is built with HTML, CSS, and JavaScript.
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 > [Click here for live preview](https://abeeratahir.github.io/Portfolio/)
