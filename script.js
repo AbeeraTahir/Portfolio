@@ -62,33 +62,16 @@ let workSection = `<div class="works_title flex-align-center">
 <div class="works_line"></div>
 </div>
 <div class="works_container d-flex">`;
-<div class="works_container d-flex">`;
-let multiPostSection = `<div class="multi_post_container d-flex">
-<img class="multi_post_img" src="${projects.multiPost.image}" alt="poster">
-<div class="multi_post_stories d-flex text-dark">
-    <h3 class="title_post font-crete-round fw-4">${projects.multiPost.name}</h3>
-    <p class="multi_post_para font-inter fw-4">
-    ${projects.multiPost.description}</p>
-    <div class="tags">
-      <ul>`;
-projects.multiPost.technologies.forEach((item) => {
-  multiPostSection += `<li>${item}</li>`;
-});
-multiPostSection += `</ul>
-      </div>
-      <button class="btn-primary btn-multi">See project</button>
-    </div>
-  </div>`;
 let cardsSection = '<div class="works_card_container">';
 projects.workCards.forEach((card) => {
-  cardsSection += `<div class="card">
-    <div class="project_image">
-      <img src="${card.image}">
-    </div>
+  cardsSection += `<div class="card d-flex">
+      <div class="project_image">
+        <img src="${card.image}" alt="project_image">
+      </div>
       <div class="mask_group">
           <div class="card_content_container">
-              <h3>${card.name}</h3>
-                <p>${card.description}</p>
+              <h3 class="font-crete-round fw-4">${card.name}</h3>
+                <p class="font-inter fw-4">${card.description}</p>
                   <div class="tags card_tags">
                       <ul>`;
   card.technologies.forEach((item) => {
