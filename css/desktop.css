@@ -125,7 +125,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 24px;
 }
 
 .works_title h2 {
@@ -152,10 +151,6 @@ a {
 .multi_post_stories {
   width: 45%;
   gap: 24px;
-}
-
-.card_content_container {
-  margin-top: 76px;
 }
 
 .about_container {

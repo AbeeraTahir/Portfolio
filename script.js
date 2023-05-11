@@ -14,75 +14,46 @@ navLinks.forEach((item) => {
   });
 });
 const projects = {
-  multiPost: {
-    name: 'Multi-Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    image: 'images/multi_post.png',
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
-    liveLink: '#',
-    source: 'https://github.com/AbeeraTahir/Portfolio.git',
-  },
   workCards: [
     {
       id: 1,
-      name: 'Profesional Art Printing Data More',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'Bootstrap', 'Ruby'],
-      image: 'images/mask_group.png',
-      liveLink: '#',
-      source: 'https://github.com/AbeeraTahir/Portfolio.git',
+      name: 'Book My Ride',
+      description: 'A car rental application that allows users to browse through all available cars, reserve a car for a designated time frame, and view all reservations made by them.',
+      popUpDescription: 'Book my Ride App is a car rental application, built with RoR, React, and Redux, that provides users with the ability to create an account, log in, and reserve acar for a designated time frame. It also allows users to browse through all available vehicles and view specific cars. Additionally, users can check their own booking history and view all reservations made by them.',
+      technologies: ['React', 'RoR', 'PostgreSQL'],
+      image: './images/car-rent.png',
+      liveLink: 'https://car-rent-12xc.onrender.com/',
+      source: 'https://github.com/AbeeraTahir/book-my-ride-backend.git',
     },
     {
       id: 2,
-      name: 'Data Dashboard Healthcare',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'Bootstrap', 'Ruby'],
-      image: 'images/data.png',
-      liveLink: '#',
-      source: 'https://github.com/AbeeraTahir/Portfolio.git',
+      name: "Space Travelers' Hub",
+      description: 'A web application, built with React and Redux, that works with real live data from the SpaceX API to allow users to book rockets and join selected space missions.',
+      popUpDescription: "The Space Traveler's hub built with React and Redux is web application that works with real live data from the SpaceX API. The app is meant to serve company's that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.",
+      technologies: ['HTML', 'CSS', 'React', 'Redux'],
+      image: './images/sth.png',
+      liveLink: 'https://superb-cucurucho-982ab9.netlify.app/',
+      source: 'https://github.com/AbeeraTahir/Space-Travelers-Hub.git',
     },
     {
       id: 3,
-      name: 'Website Protfolio',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'Bootstrap', 'Ruby'],
-      image: 'images/wp.png',
-      liveLink: '#',
-      source: 'https://github.com/AbeeraTahir/Portfolio.git',
+      name: 'Bookstore',
+      description: 'A web application, built with React and Redux, hat allows users to see the list of books, add a book to the list, and remove a book from the list.',
+      popUpDescription: 'Bookstore is a website built with React, Redux and external API, that allows users to see the list of books, add a book to the list, and remove a book from the list.',
+      technologies: ['HTML', 'CSS', 'React', 'Redux'],
+      image: './images/bookstore.png',
+      liveLink: 'https://friendly-manatee-6f4f18.netlify.app/',
+      source: 'https://github.com/AbeeraTahir/Bookstore.git',
     },
     {
       id: 4,
-      name: 'Profesional Art Printing Data More',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'Bootstrap', 'Ruby'],
-      image: 'images/mask_group.png',
-      liveLink: '#',
-      source: 'https://github.com/AbeeraTahir/Portfolio.git',
-    },
-    {
-      id: 5,
-      name: 'Data Dashboard Healthcare',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'Bootstrap', 'Ruby'],
-      image: 'images/data.png',
-      liveLink: '#',
-      source: 'https://github.com/AbeeraTahir/Portfolio.git',
-    },
-    {
-      id: 6,
-      name: 'Website Protfolio ',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      popUpDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      technologies: ['HTML', 'Bootstrap', 'Ruby'],
-      image: 'images/wp.png',
-      liveLink: '#',
-      source: 'https://github.com/AbeeraTahir/Portfolio.git',
+      name: 'Math Magicians',
+      description: 'A Single Page Application (SPA), built with React, that allows users to make simple calculations and read a math-related quote.',
+      popUpDescription: 'Math Magicians is a Single Page Application (SPA), built with React, that allows users to make simple calculations and read a math-related quote.',
+      technologies: ['HTML', 'CSS', 'React', 'Redux'],
+      image: './images/mm.png',
+      liveLink: 'https://stately-mochi-0d3ec2.netlify.app/',
+      source: 'https://github.com/AbeeraTahir/Math-Magicians.git',
     },
   ],
 };
@@ -91,29 +62,16 @@ let workSection = `<div class="works_title">
 <div class="works_line"></div>
 </div>
 <div class="works_container d-flex">`;
-// let multiPostSection = `<div class="multi_post_container d-flex">
-// <img class="multi_post_img" src="${projects.multiPost.image}" alt="poster">
-// <div class="multi_post_stories d-flex text-dark">
-//     <h3 class="title_post font-crete-round fw-4">${projects.multiPost.name}</h3>
-//     <p class="multi_post_para font-inter fw-4">
-//     ${projects.multiPost.description}</p>
-//     <div class="tags">
-//       <ul>`;
-// projects.multiPost.technologies.forEach((item) => {
-//   multiPostSection += `<li>${item}</li>`;
-// });
-// multiPostSection += `</ul>
-//       </div>
-//       <button class="btn-primary btn-multi">See project</button>
-//     </div>
-//   </div>`;
 let cardsSection = '<div class="works_card_container">';
 projects.workCards.forEach((card) => {
   cardsSection += `<div class="card">
-      <div class="mask_group" style="background-image: url(${card.image})">
+    <div class="project_image">
+      <img src="${card.image}">
+    </div>
+      <div class="mask_group">
           <div class="card_content_container">
-              <h3 class="white">${card.name}</h3>
-                <p class="white">${card.description}</p>
+              <h3>${card.name}</h3>
+                <p>${card.description}</p>
                   <div class="tags card_tags">
                       <ul>`;
   card.technologies.forEach((item) => {
@@ -162,26 +120,12 @@ function getProjects(index) {
   return project;
 }
 
-function loadMultiPostPopUp() {
-  const multiPostPopUp = getProjects(projects.multiPost);
-  return multiPostPopUp;
-}
-
 function loadProjectPopUp(p) {
   const projectsPopUp = getProjects(projects.workCards[p]);
   return projectsPopUp;
 }
 
 const popUpSection = document.querySelector('.popup_section');
-
-const btnMultiPost = document.querySelector('.btn_multi');
-btnMultiPost.addEventListener('click', () => {
-  popUpSection.innerHTML = loadMultiPostPopUp();
-  popUpSection.classList.toggle('hide');
-  document.querySelector('.popup_cross').addEventListener('click', () => {
-    popUpSection.classList.toggle('hide');
-  });
-});
 
 btnSeeProjectArray.forEach((project, i) => {
   project.addEventListener('click', () => {
