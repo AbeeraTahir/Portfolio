@@ -90,23 +90,23 @@ let workSection = `<div class="works_title">
 <h2>My Recent Works</h2>
 <div class="works_line"></div>
 </div>
-<div class="works_container">`;
-let multiPostSection = `<div class="multi_post_container">
-<img class="multi_post_img" src="${projects.multiPost.image}" alt="poster">
-<div class="multi_post_stories">
-    <h3 class="title_post">${projects.multiPost.name}</h3>
-    <p class="multi_post_para">
-    ${projects.multiPost.description}</p>
-    <div class="tags">
-      <ul>`;
-projects.multiPost.technologies.forEach((item) => {
-  multiPostSection += `<li>${item}</li>`;
-});
-multiPostSection += `</ul>
-      </div>
-      <button class="orange_bg white btn_multi">See project</button>
-    </div>
-  </div>`;
+<div class="works_container d-flex">`;
+// let multiPostSection = `<div class="multi_post_container d-flex">
+// <img class="multi_post_img" src="${projects.multiPost.image}" alt="poster">
+// <div class="multi_post_stories d-flex text-dark">
+//     <h3 class="title_post font-crete-round fw-4">${projects.multiPost.name}</h3>
+//     <p class="multi_post_para font-inter fw-4">
+//     ${projects.multiPost.description}</p>
+//     <div class="tags">
+//       <ul>`;
+// projects.multiPost.technologies.forEach((item) => {
+//   multiPostSection += `<li>${item}</li>`;
+// });
+// multiPostSection += `</ul>
+//       </div>
+//       <button class="btn-primary btn-multi">See project</button>
+//     </div>
+//   </div>`;
 let cardsSection = '<div class="works_card_container">';
 projects.workCards.forEach((card) => {
   cardsSection += `<div class="card">
@@ -127,7 +127,7 @@ projects.workCards.forEach((card) => {
   </div>`;
 });
 cardsSection += '</div>';
-workSection = `${workSection + multiPostSection + cardsSection}</div>`;
+workSection = `${workSection + cardsSection}</div>`;
 document.getElementById('work').innerHTML = workSection;
 
 const btnSeeProject = document.getElementsByClassName('btn_see_project');

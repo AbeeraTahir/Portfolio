@@ -283,6 +283,7 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
   grid-gap: 24px;
+  margin-top: 50px;
 }
 
 .card {
