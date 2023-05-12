@@ -38,7 +38,7 @@ const projects = {
     {
       id: 3,
       name: 'Bookstore',
-      description: 'A web application, built with React and Redux, hat allows users to see the list of books, add a book to the list, and remove a book from the list.',
+      description: 'A web application, built with React and Redux, that allows users to see the list of books, add a book to the list, and remove a book from the list.',
       popUpDescription: 'Bookstore is a website built with React, Redux and external API, that allows users to see the list of books, add a book to the list, and remove a book from the list.',
       technologies: ['HTML', 'CSS', 'React', 'Redux'],
       image: './images/bookstore.png',
