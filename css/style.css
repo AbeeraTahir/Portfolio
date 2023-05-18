@@ -304,7 +304,7 @@ nav {
 .skills_content {
   flex-direction: column;
   gap: 44px;
-  padding-bottom: 50px;
+  padding: 0 20px 50px 20px;
 }
 
 .skill_inner_section {
