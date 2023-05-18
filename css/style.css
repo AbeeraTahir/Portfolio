@@ -17,6 +17,19 @@ header {
   line-height: 1.5rem;
   margin: 12px;
   width: 150px;
+  animation: slideInFromLeft 0.9s ease forwards;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 nav {
@@ -48,8 +61,13 @@ nav {
   height: 100%;
   position: fixed;
   top: 0;
-  left: 0;
   padding: 24px;
+  right: -100%;
+  transition: all 0.8s ease;
+}
+
+.mobile_menu.nav_show {
+  right: 0;
 }
 
 .mobile_menu ul {
@@ -120,12 +138,6 @@ nav {
   gap: 20px;
 }
 
-.social_media ul li {
-  list-style: none;
-  width: 45px;
-  height: 45px;
-}
-
 .works {
   padding: 120px 24px;
 }
@@ -153,30 +165,6 @@ nav {
   height: 2px;
 }
 
-.multi_post_container {
-  flex-direction: column;
-  gap: 24px;
-}
-
-.multi_post_img {
-  max-width: 100%;
-}
-
-.multi_post_stories {
-  flex-direction: column;
-  gap: 12px;
-}
-
-.title_post {
-  font-size: 2rem;
-  line-height: 2.75rem;
-}
-
-.multi_post_para {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .tags ul li {
   list-style: none;
   border: 1px solid #8993a4;
@@ -201,7 +189,14 @@ nav {
 .card {
   flex-direction: column;
   height: 100%;
+  border-radius: 5px;
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.02);
 }
 
 .project_image {
@@ -235,6 +230,8 @@ nav {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: auto;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 5px 5px;
 }
 
 .card_content_container {
@@ -314,12 +311,22 @@ nav {
   flex-direction: column;
 }
 
-.skill_title {
-  justify-content: center;
-  gap: 20px;
+.language::before {
+  content: url('../icons/quad.png');
+  margin-right: 20px;
 }
 
-.skill_title h3 {
+.framework::before {
+  content: url('../icons/square.png');
+  margin-right: 20px;
+}
+
+.skill::before {
+  content: url('../icons/circle.png');
+  margin-right: 20px;
+}
+
+.skill_inner_section h3 {
   font-family: 'InaiMathi', sans-serif;
   font-weight: 600;
   font-size: 1.875rem;
@@ -544,18 +551,4 @@ hr {
   place-items: center;
   margin: auto;
   margin-bottom: 8px;
-}
-
-.social_media li:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-.bottom_navigation ul li:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-.form-text-container h2:hover {
-  transform: translate(3px, 0);
 }
