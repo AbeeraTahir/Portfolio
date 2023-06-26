@@ -16,15 +16,27 @@ navLinks.forEach((item) => {
 
 const projects = {
   workCards: [
+    // {
+    //   id: 1,
+    //   name: 'Book My Ride',
+    // eslint-disable-next-line max-len
+    //   description: 'A car rental application that allows users to browse through all available cars, reserve a car for a designated time frame, and view all reservations made by them.',
+    // eslint-disable-next-line max-len
+    //   popUpDescription: 'Book my Ride App is a car rental application, built with RoR, React, and Redux, that provides users with the ability to create an account, log in, and reserve acar for a designated time frame. It also allows users to browse through all available vehicles and view specific cars. Additionally, users can check their own booking history and view all reservations made by them.',
+    //   technologies: ['React', 'RoR', 'PostgreSQL'],
+    //   image: './images/car-rent.png',
+    //   liveLink: 'https://car-rent-12xc.onrender.com/',
+    //   source: 'https://github.com/AbeeraTahir/book-my-ride-backend.git',
+    // },
     {
       id: 1,
-      name: 'Book My Ride',
-      description: 'A car rental application that allows users to browse through all available cars, reserve a car for a designated time frame, and view all reservations made by them.',
-      popUpDescription: 'Book my Ride App is a car rental application, built with RoR, React, and Redux, that provides users with the ability to create an account, log in, and reserve acar for a designated time frame. It also allows users to browse through all available vehicles and view specific cars. Additionally, users can check their own booking history and view all reservations made by them.',
-      technologies: ['React', 'RoR', 'PostgreSQL'],
-      image: './images/car-rent.png',
-      liveLink: 'https://car-rent-12xc.onrender.com/',
-      source: 'https://github.com/AbeeraTahir/book-my-ride-backend.git',
+      name: 'Bookstore',
+      description: 'A web application, built with React and Redux, that allows users to see the list of books, add a book to the list, and remove a book from the list.',
+      popUpDescription: 'Bookstore is a website built with React, Redux and external API, that allows users to see the list of books, add a book to the list, and remove a book from the list.',
+      technologies: ['HTML', 'CSS', 'React', 'Redux'],
+      image: './images/bookstore.png',
+      liveLink: 'https://friendly-manatee-6f4f18.netlify.app/',
+      source: 'https://github.com/AbeeraTahir/Bookstore.git',
     },
     {
       id: 2,
@@ -38,20 +50,20 @@ const projects = {
     },
     {
       id: 3,
-      name: 'Bookstore',
-      description: 'A web application, built with React and Redux, that allows users to see the list of books, add a book to the list, and remove a book from the list.',
-      popUpDescription: 'Bookstore is a website built with React, Redux and external API, that allows users to see the list of books, add a book to the list, and remove a book from the list.',
+      name: 'Crypto Metrics',
+      description: 'A mobile web application that uses CoinStats API to display the list of cryptocurrencies and their market capitalization.',
+      popUpDescription: 'Crypto Metrics, built with React and Redux, is a mobile web application that uses CoinStats API to display the list of cryptocurrencies and their market capitalization.',
       technologies: ['HTML', 'CSS', 'React', 'Redux'],
-      image: './images/bookstore.png',
-      liveLink: 'https://friendly-manatee-6f4f18.netlify.app/',
-      source: 'https://github.com/AbeeraTahir/Bookstore.git',
+      image: './images/crypto.png',
+      liveLink: 'https://incandescent-crepe-9d449b.netlify.app/',
+      source: 'https://github.com/AbeeraTahir/Crypto-Metrics.git',
     },
     {
       id: 4,
       name: 'Math Magicians',
       description: 'A Single Page Application (SPA), built with React, that allows users to make simple calculations and read a math-related quote.',
       popUpDescription: 'Math Magicians is a Single Page Application (SPA), built with React, that allows users to make simple calculations and read a math-related quote.',
-      technologies: ['HTML', 'CSS', 'React', 'Redux'],
+      technologies: ['HTML', 'CSS', 'React'],
       image: './images/mm.png',
       liveLink: 'https://stately-mochi-0d3ec2.netlify.app/',
       source: 'https://github.com/AbeeraTahir/Math-Magicians.git',

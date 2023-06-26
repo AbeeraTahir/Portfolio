@@ -125,6 +125,8 @@ a {
 
 .about_me_description {
   width: 50%;
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 .skills_container {
